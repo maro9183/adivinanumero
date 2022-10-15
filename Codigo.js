@@ -1,4 +1,4 @@
-for (i=1;i<10;i++){
+/*for (i=1;i<10;i++){
     document.write("<br><b>La tabla del " + i + ":</b><br>")
     for (j=1;j<10;j++) {
     document.write(i + " x " + j + ": ")
@@ -17,9 +17,6 @@ for (i=1;i<10;i++){
    }
 
 
-
-/*
-
 for (i=0;i<10;i++){
     document.write (i)
     console.log(i)
@@ -35,6 +32,10 @@ for (i=0;i<10;i++){
     continue
     i++
    }
+
+   
+*/
+
 
 function encuentraElNumero() {
     var mayor=Math.ceil(Number( prompt('Elija el número más alto')))
@@ -73,5 +74,3 @@ function encuentraElNumero() {
     }
 }
 //encuentraElNumero()
-
-*/
