@@ -46,7 +46,7 @@ function encuentraElNumero() {
     
     
     while (true) {
-        var numero = Number(prompt('Ingrese un número'));
+        var numero = Number(prompt('Ingrese un número entre '+mayor+' y '+menor+'. Intento: '+(vidas+1)+' de 3'));
 
         if(numero==ganador){
             alert('ha ganado')
