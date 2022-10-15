@@ -50,6 +50,7 @@ function encuentraElNumero() {
 
         if(numero==ganador){
             alert('ha ganado')
+            document.write('<img src="https://pbs.twimg.com/media/FLty1zqX0AUWFDi?format=jpg&name=small" alt="papo"></img>')
             break
         }else {
             if(vidas!=0){
